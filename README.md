@@ -4,14 +4,16 @@ Repositorio central de los recursos gráficos del proyecto **Echidna**: logos, f
 placas, esquemas, capturas de EchidnaML (EchidnaBlocks y LearningML), portadas de proyectos y
 material de difusión.
 
-Hasta ahora las imágenes estaban repartidas y duplicadas entre varios repositorios:
+Las imágenes que se usan actualmente están repartidas y duplicadas entre varios repositorios:
 
 - [manual](https://github.com/EchidnaEducacion/manual) — Manual de EchidnaBlack2 y EchidnaML
 - [GuiaInicioEchidnaML](https://github.com/EchidnaEducacion/GuiaInicioEchidnaML) — Guía de inicio de EchidnaML
 - [EchidnaEducacion.github.io](https://github.com/EchidnaEducacion/EchidnaEducacion.github.io) — Web
 
-El objetivo de este repositorio es **centralizarlas en una única fuente** y **aumentar su calidad**
-(mayor resolución, formatos adecuados y archivos editables originales).
+En este repositorio esas imágenes **se rehacen desde cero**: nuevas fotografías, capturas y
+recortes, con más resolución y archivos editables originales. **No se copian aquí las imágenes
+antiguas.** Cuando una imagen nueva está lista, sustituye a la antigua en los repositorios que la
+usan.
 
 ## Estructura
 
@@ -95,18 +97,28 @@ Ejemplos de renombrado:
 - **Fotos de móvil**: eliminar los metadatos EXIF (ubicación, modelo del teléfono) antes de subirlas,
   por ejemplo con `exiftool -all= foto.jpg`.
 
-## Cómo usar estas imágenes en otros repositorios
+### Recortes y encuadre
 
-Copia la imagen desde este repositorio al repositorio que la necesita, manteniendo el mismo nombre,
-y optimízala allí para su uso. Si se mejora una imagen, se actualiza primero aquí y después se copia
-de nuevo a los repositorios que la usan.
+- Encuadre ajustado al sujeto, con un margen pequeño y uniforme.
+- Fondo transparente (PNG) o neutro y homogéneo en las fotos de placas y componentes.
+- Misma orientación, iluminación y escala en las series de imágenes (por ejemplo, todas las lupas).
+- Capturas de pantalla sin barras del sistema, pestañas ni cursor, con la ventana siempre al mismo tamaño.
+- Mismo encuadre para imágenes equivalentes en distintas placas o idiomas.
+
+## Sustitución en otros repositorios
+
+Cuando una imagen nueva está lista, se copia al repositorio que la usa **reemplazando la antigua**:
+se adopta el nombre nuevo, se actualiza la referencia en el Markdown y, si hace falta, se optimiza
+allí (redimensionar, convertir a WebP...). Si más adelante se mejora una imagen, se actualiza
+primero aquí y después se vuelve a copiar.
 
 ## Cómo contribuir
 
 1. Coloca la imagen en la carpeta temática que corresponda.
 2. Nómbrala siguiendo la convención anterior.
 3. Si existe, añade el archivo editable en `fuentes/`.
-4. Antes de añadir una imagen, comprueba que no exista ya con otro nombre.
+4. Si sustituye a una imagen existente, indica en el mensaje del commit cuál reemplaza
+   (repositorio y ruta antigua), para poder hacer después la sustitución.
 
 ## Licencia
 
