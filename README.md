@@ -110,10 +110,35 @@ Ejemplos de renombrado:
 
 ## Sustitución en otros repositorios
 
-Cuando una imagen nueva está lista, se copia al repositorio que la usa **reemplazando la antigua**:
-se adopta el nombre nuevo, se actualiza la referencia en el Markdown y, si hace falta, se optimiza
-allí (redimensionar, convertir a WebP...). Si más adelante se mejora una imagen, se actualiza
-primero aquí y después se vuelve a copiar.
+Cuando una imagen nueva está lista, se copia al repositorio que la usa **reemplazando la antigua**.
+Si más adelante se mejora una imagen, se actualiza primero aquí y después se vuelve a copiar.
+Conviene sustituir por series (por ejemplo, todas las lupas a la vez).
+
+**Web** (EchidnaEducacion.github.io): ya usa los nombres nuevos y cada imagen está junto al
+`index.md` de su página. Basta con copiar la imagen nueva encima de la antigua; Astro se encarga de
+optimizarla.
+
+**Manual y guía de inicio**: las imágenes están en `docs/assets/images/` con los nombres antiguos,
+así que además hay que actualizar las referencias. Ejemplo con `Lupa_Ledes.png` → `lupa-leds.png`:
+
+```bash
+# 1. Buscar dónde se usa la imagen antigua
+grep -rln "Lupa_Ledes.png" docs/
+
+# 2. Copiar la imagen nueva desde Rgraficos
+cp ../Rgraficos/hardware/echidnablack2/lupa-leds.png docs/assets/images/
+
+# 3. Actualizar las referencias en los .md encontrados
+grep -rl "Lupa_Ledes.png" docs/ | xargs sed -i 's/Lupa_Ledes\.png/lupa-leds.png/g'
+
+# 4. Comprobar que ya no se usa y borrar la antigua
+grep -rn "Lupa_Ledes.png" docs/ || git rm docs/assets/images/Lupa_Ledes.png
+```
+
+Después, revisar el resultado en local (`zensical serve`), sobre todo el tamaño (`width=`,
+`.img-lupa`), porque la imagen nueva puede tener otras proporciones. En el mensaje del commit,
+indicar qué imagen se sustituye, por ejemplo:
+`Sustituye Lupa_Ledes.png por lupa-leds.png de Rgraficos`.
 
 ## Cómo contribuir
 
