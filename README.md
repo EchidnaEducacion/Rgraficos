@@ -15,6 +15,8 @@ recortes, con más resolución y archivos editables originales. **No se copian a
 antiguas.** Cuando una imagen nueva está lista, sustituye a la antigua en los repositorios que la
 usan.
 
+Lo que falta por hacer está en [PENDIENTE.md](PENDIENTE.md).
+
 ## Estructura
 
 ```
@@ -36,7 +38,7 @@ plantillas/             Plantillas de portadas y diapositivas
 ```
 
 Cada carpeta puede tener una subcarpeta `fuentes/` con los archivos editables
-(`.ai`, `.svg` maestro, `.xcf`, `.kra`, `.fzz` de Fritzing...) a partir de los cuales se exportan
+(`.ai`, `.svg` maestro, `.xcf`, `.kra`, `.fzz` de Fritzing, `.skp` de SketchUp...) a partir de los cuales se exportan
 las imágenes de esa carpeta.
 
 ## Convención de nombres
@@ -51,6 +53,7 @@ las imágenes de esa carpeta.
 | `logo-` | Logotipos | `logo-echidna-izquierda.png` |
 | `icono-` | Iconos | `icono-echidnablocks.png` |
 | `foto-` | Fotografías | `foto-echidnablack2-cenital.jpg` |
+| `render-` | Imágenes 3D generadas (SketchUp) | `render-echidnablack2-perspectiva.png` |
 | `lupa-` | Detalle ampliado de una zona de la placa | `lupa-leds.png` |
 | `esquema-` | Esquemas eléctricos | `esquema-led-rgb.png` |
 | `conexion-` | Cómo conectar un complemento | `conexion-servomotor.png` |
