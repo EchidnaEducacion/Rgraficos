@@ -54,6 +54,7 @@ las imágenes de esa carpeta.
 |---|---|---|
 | `logo-` | Logotipos | `logo-echidna-izquierda.png` |
 | `icono-` | Iconos | `icono-echidnablocks.png` |
+| `ilustracion-` | Ilustraciones y mascotas | `ilustracion-erizos.svg` |
 | `foto-` | Fotografías | `foto-echidnablack2-cenital.jpg` |
 | `render-` | Imágenes 3D generadas (SketchUp) | `render-echidnablack2-perspectiva.png` |
 | `fritzing-` | Vista protoboard de una pieza de Fritzing | `fritzing-echidnablack2.svg` |

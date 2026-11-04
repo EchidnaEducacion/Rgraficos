@@ -14,6 +14,8 @@ Recursos gráficos que quedan por rehacer y subir a este repositorio. Los nombre
   - Carpeta: `logos/echidnaml/`: `logo-echidnaml.svg`, su versión PNG y el editable en `fuentes/`
 - [ ] **Programas de ejemplo**
   - Carpeta: `software/echidnablocks/`, prefijo `programa-` (p. ej. `programa-semaforo.png`)
+- [ ] **Imagen de los 5 erizos**
+  - Carpeta: `logos/echidna/`: `ilustracion-erizos.svg`, su versión PNG y el editable en `fuentes/`
 - [x] **Piezas de Fritzing**
   - Carpeta: `hardware/fritzing/`, piezas `.fzpz` y prefijo `fritzing-` (p. ej. `fritzing-echidnablack2.svg`)
   - Traídas desde [Recursos](https://github.com/EchidnaEducacion/Recursos/tree/master/electronica/Fritzing), que ahora remite aquí
