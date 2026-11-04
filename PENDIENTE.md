@@ -5,7 +5,8 @@ Recursos gráficos que quedan por rehacer y subir a este repositorio. Los nombre
 
 - [ ] **Imágenes 3D de la placa (SketchUp)**
   - Carpeta: `hardware/echidnablack2/`, prefijo `render-` (p. ej. `render-echidnablack2-perspectiva.png`)
-  - El archivo `.skp` en `hardware/echidnablack2/fuentes/`
+  - [x] El archivo `.skp` en `hardware/echidnablack2/fuentes/`: `render-echidnablack2.skp`
+  - [ ] Exportar los renders
 - [ ] **Bloques de EchidnaBlocks**
   - Carpeta: `software/echidnablocks/`, prefijo `bloque-` (p. ej. `bloque-led-rgb.png`)
 - [ ] **Bloques de LearningML**
