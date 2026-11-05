@@ -12,7 +12,7 @@ Las imágenes que se usan actualmente están repartidas y duplicadas entre vario
 
 En este repositorio esas imágenes **se rehacen desde cero**: nuevas fotografías, capturas y
 recortes, con más resolución y archivos editables originales. **No se copian aquí las imágenes
-antiguas.** La excepción son las [piezas de Fritzing](hardware/fritzing/), que se han traído tal
+antiguas.** La excepción son los [componentes de Fritzing](hardware/fritzing/), que se han traído tal
 cual desde el repositorio [Recursos](https://github.com/EchidnaEducacion/Recursos). Cuando una imagen nueva está lista, sustituye a la antigua en los repositorios que la
 usan.
 
@@ -28,7 +28,7 @@ hardware/
   echidnablack2/        Fotos, lupas y esquemas de la placa y sus componentes
   complementos/         Servomotores, sensor de infrarrojos, sensor de humedad...
   placas-anteriores/    EchidnaBlack y EchidnaShield
-  fritzing/             Piezas de Fritzing (.fzpz) de las placas y complementos
+  fritzing/             Componentes de Fritzing (.fzpz) de las placas y complementos
 software/
   echidnaml/            Diagramas y capturas generales (puesta en marcha, descarga, conexión)
   echidnablocks/        Capturas del entorno, bloques y programas de ejemplo
@@ -57,7 +57,7 @@ las imágenes de esa carpeta.
 | `ilustracion-` | Ilustraciones y mascotas | `ilustracion-erizos.svg` |
 | `foto-` | Fotografías | `foto-echidnablack2-cenital.jpg` |
 | `render-` | Imágenes 3D generadas (SketchUp) | `render-echidnablack2-perspectiva.png` |
-| `fritzing-` | Vista protoboard de una pieza de Fritzing | `fritzing-echidnablack2.svg` |
+| `fritzing-` | Vista protoboard de un componente de Fritzing | `fritzing-echidnablack2.svg` |
 | `lupa-` | Detalle ampliado de una zona de la placa | `lupa-leds.png` |
 | `esquema-` | Esquemas eléctricos | `esquema-led-rgb.png` |
 | `conexion-` | Cómo conectar un complemento | `conexion-servomotor.png` |
@@ -78,7 +78,7 @@ las imágenes de esa carpeta.
 
 **No** incluir fechas, `final`, `v2`, `nuevo`... en el nombre: el historial lo lleva git.
 
-Las piezas de Fritzing (`.fzpz`) se nombran solo con el sujeto, sin prefijo:
+Los componentes de Fritzing (`.fzpz`) se nombran solo con el sujeto, sin prefijo:
 `echidnablack2.fzpz`. Los proyectos de Fritzing (`.fzz`) siguen yendo a `fuentes/`.
 
 Ejemplos de renombrado:
