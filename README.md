@@ -35,6 +35,7 @@ software/
   learningml/           Capturas de las fases, entrenamiento y prueba de modelos
   arduino-ide/          Capturas del IDE de Arduino
 proyectos/              Portadas y animaciones de proyectos y actividades
+identidad/              Manual de identidad corporativa (RGB y CMYK) y su editable
 difusion/               Trípticos, carteles, imágenes para redes sociales, pegatinas
 plantillas/             Plantillas de portadas y diapositivas
 ```
