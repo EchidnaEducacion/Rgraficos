@@ -68,6 +68,7 @@ las imágenes de esa carpeta.
 | `portada-` | Portadas de proyectos, diapositivas o entradas | `portada-hola-mundo.png` |
 | `animacion-` | GIF animados | `animacion-semaforo.gif` |
 | `triptico-`, `cartel-` | Material de difusión | `triptico-echidna.pdf` |
+| `manual-` | Manuales en PDF (identidad corporativa...) | `manual-identidad-echidna.pdf` |
 
 **Variantes** al final del nombre, solo cuando hagan falta:
 
