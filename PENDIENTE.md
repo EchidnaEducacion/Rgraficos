@@ -19,8 +19,7 @@ Recursos gráficos que quedan por rehacer y subir a este repositorio. Los nombre
   - Carpeta: `logos/echidna/`: `ilustracion-erizos.svg`, su versión PNG y el editable en `fuentes/`
 - [ ] **Manual de identidad corporativa**
   - Carpeta: `identidad/`, prefijo `manual-`
-  - [ ] Versión CMYK (imprenta): `manual-identidad-echidna-imprenta.pdf`
-  - [x] Versión RGB (pantalla): `manual-identidad-echidna.pdf`
+  - [x] El PDF: `manual-identidad-echidna.pdf`
   - [ ] El archivo `.indd` empaquetado en `identidad/fuentes/`
   - [x] Añadir el prefijo `manual-` a la tabla del README
 - [x] **Componentes de Fritzing**
