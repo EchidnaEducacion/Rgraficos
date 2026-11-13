@@ -17,6 +17,8 @@ Recursos gráficos que quedan por rehacer y subir a este repositorio. Los nombre
   - Carpeta: `software/echidnablocks/`, prefijo `programa-` (p. ej. `programa-semaforo.png`)
 - [ ] **Imagen de los 5 erizos**
   - Carpeta: `logos/echidna/`: `ilustracion-erizos.svg`, su versión PNG y el editable en `fuentes/`
+  - [x] El PNG: `ilustracion-erizos.png`
+  - [ ] El SVG y el editable en `fuentes/`
 - [ ] **Manual de identidad corporativa**
   - Carpeta: `identidad/`, prefijo `manual-`
   - [x] El PDF: `manual-identidad-echidna.pdf`
