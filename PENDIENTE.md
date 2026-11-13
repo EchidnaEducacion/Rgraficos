@@ -11,7 +11,7 @@ Recursos gráficos que quedan por rehacer y subir a este repositorio. Los nombre
   - Carpeta: `software/echidnablocks/`, prefijo `bloque-` (p. ej. `bloque-led-rgb.png`)
 - [ ] **Bloques de LearningML**
   - Carpeta: `software/learningml/`, prefijo `bloque-` (p. ej. `bloque-clasificar-texto.png`)
-- [ ] **Logo de EchidnaML**
+- [x] **Logo de EchidnaML**
   - Carpeta: `logos/echidnaml/`: `logo-echidnaml.svg`, su versión PNG y el editable en `fuentes/`
 - [ ] **Programas de ejemplo**
   - Carpeta: `software/echidnablocks/`, prefijo `programa-` (p. ej. `programa-semaforo.png`)
