@@ -44,6 +44,10 @@ Cada carpeta puede tener una subcarpeta `fuentes/` con los archivos editables
 (`.ai`, `.svg` maestro, `.xcf`, `.kra`, `.fzz` de Fritzing, `.skp` de SketchUp...) a partir de los cuales se exportan
 las imágenes de esa carpeta.
 
+Los paquetes de InDesign (como `identidad/fuentes/`) son una excepción a la convención de nombres:
+las carpetas `Links/` y `Document fonts/` conservan los nombres originales, porque el `.indd` las
+busca por ese nombre.
+
 ## Convención de nombres
 
 - Todo en **minúsculas** y en **kebab-case** (palabras separadas por guiones).
